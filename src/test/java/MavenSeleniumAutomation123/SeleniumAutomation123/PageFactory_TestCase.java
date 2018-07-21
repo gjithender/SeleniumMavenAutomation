@@ -35,7 +35,11 @@ public class PageFactory_TestCase {
 
       driver.get("http://www.store.demoqa.com");
       
+      System.out.println("Launching application.");
+      
       driver.manage().window().maximize();
+      
+      System.out.println("Max Window.");
 
       HomePage = PageFactory.initElements(driver, Home_PG_POF.class);
 
@@ -54,6 +58,8 @@ public class PageFactory_TestCase {
       System.out.println(" Login Successfully, now it is the time to Log Off buddy.");
 
       HomePage.lnk_LogOut.click();
+      
+      System.out.println("Clicked logout.");
 
   }
 
