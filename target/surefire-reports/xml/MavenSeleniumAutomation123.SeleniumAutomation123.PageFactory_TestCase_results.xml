@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="4.678">
+           time="7.641">
   <properties />
   
   
-            <testcase name="test" time="4.678" classname="MavenSeleniumAutomation123.SeleniumAutomation123.PageFactory_TestCase" />
+            <testcase name="test" time="7.641" classname="MavenSeleniumAutomation123.SeleniumAutomation123.PageFactory_TestCase" />
       
 </testsuite>
