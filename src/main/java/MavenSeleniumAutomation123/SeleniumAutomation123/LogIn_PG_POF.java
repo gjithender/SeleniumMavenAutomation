@@ -36,10 +36,14 @@ public class LogIn_PG_POF {
  
 	public void LogIn_Action(String sUserName, String sPassword){
  
+		System.out.println("Entering User Name.");
+		
 		txtbx_UserName.sendKeys(sUserName);
  
+		System.out.println("Entering Password.");
 		txtbx_Password.sendKeys(sPassword);
  
+		System.out.println("Clicking Login Button.");
 		btn_Login.click();
  
 	}
